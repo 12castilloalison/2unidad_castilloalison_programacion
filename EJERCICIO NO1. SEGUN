@@ -1,0 +1,31 @@
+// un programa que solicite un numero del 1 al 7
+//mostrar en pantalla los dias de la semana segun el numero ingresado
+Algoritmo DIASSEMANA
+	ESCRIBIR "***************************"
+	escribir "    DIAS DE LA SEMANA   "
+	ESCRIBIR "***************************"
+	//VARIABLE
+	DEFINIR DIA COMO ENTERO
+	ESCRIBIR " DIGITE UN VALOR NUMERO ENTRE 1 Y 7 "
+	LEER DIA
+	Segun DIA Hacer
+		1:
+			ESCRIBIR "LUNES"
+		2:
+			ESCRIBIR "MARTES"
+		3:
+			ESCRIBIR "MIERCOLES"
+		4:
+			ESCRIBIR "JUEVES"
+		5:
+			ESCRIBIR "VIERNES"
+		6:
+			ESCRIBIR "SABADO"
+		7:
+			ESCRIBIR "DOMINGO"
+		De Otro Modo:
+			Escribir "DIGITE UN VALOR VALIDO DEL 1 AL 7"
+	Fin Segun
+	
+	
+FinAlgoritmo

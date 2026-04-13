@@ -1,0 +1,23 @@
+
+Algoritmo EJERCICIO3
+	definir letra Como Caracter
+	escribir "CLASIFICACION DE LETRAS POR RANGO"
+	ESCRIBIR Sin Saltar"DIGITE UNA LETRA"
+	LEER letra
+	Segun letra Hacer
+		"A" O "a":
+			eSCRIBIR "EXCELENTE"
+		"B" O "b":
+			eSCRIBIR "BUENO"
+		"C" O "c":
+			eSCRIBIR "REGULAR"
+		"D" O "d":
+			eSCRIBIR "DEFICIENTE"
+			"F" O "f":
+			eSCRIBIR "REPROBADO"
+		De Otro Modo:
+			 Escribir "DIGITE UNA LETRA VALIDA ENTRE A,B,C,D Y F"
+	Fin Segun
+	
+	
+FinAlgoritmo
